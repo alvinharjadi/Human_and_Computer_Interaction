@@ -1,0 +1,133 @@
+.dropdown-content a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content{
+    display: none;
+    background: white;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.dropdown button{
+    background: transparent;
+    color: black;
+    border: none;
+    margin-left: 3vw;
+}
+
+.dropdown button{
+    font-size: large;
+}
+
+.dropdown{
+    height: 5vh;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: aquamarine;
+}
+
+.dropdown-content{
+    position: static;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 247, 255, 0.123);
+}
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    padding: 2vh;
+    justify-content: space-between;
+}
+
+.nav-left img{
+    width: 250px;
+    height: 120px;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-middle h1{
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content p{
+    font-size: larger;
+}
+
+.content h1{
+    font-size: xx-large;
+}
+
+.content img{
+    height: 50vh;
+    width: 60vw;
+}
+
+.feature1{
+    margin-left: 5vw;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.feature2{
+    margin-right: 5vw;
+    justify-content:right;
+    align-items: center;
+    text-align: right;
+}
+
+.feature3{
+    margin-left: 5vw;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.feature4{
+    margin-right: 5vw;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+
+.feature5{
+    margin-left: 5vw;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}

@@ -1,0 +1,121 @@
+.dropdown-content a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content{
+    display: none;
+    background: white;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.dropdown button{
+    background: transparent;
+    color: black;
+    border: none;
+    margin-left: 3vw;
+}
+
+.dropdown button{
+    font-size: large;
+}
+
+.dropdown{
+    height: 5vh;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: aquamarine;
+}
+
+.dropdown-content{
+    position: static;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    padding: 2vh;
+    justify-content: space-between;
+}
+
+.nav-left img{
+    width: 250px;
+    height: 120px;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-middle h1{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-left{
+    margin-top: 2vw;
+    width: 640px;
+    height: 360px;
+    background-image: url(ambergalery1.jpg);
+    background-size: cover;
+}
+
+.content-left:hover{
+    background-image: url(ambergallery2.jpg);
+    background-size: cover;
+}
+
+.content-mid{
+    margin-top: 2vw;
+    width: 640px;
+    height: 360px;
+    background-image: url(barbaragallery1.jpg);
+    background-size: cover;
+}
+
+.content-mid:hover{
+    background-image: url(barbaragallery2.jpg);
+    background-size: cover;
+}
+
+.content-right{
+    margin-top: 2vw;
+    width: 640px;
+    height: 360px;
+    background-image: url(ventigallery1.png);
+    background-size: cover;
+}
+
+.content-right:hover{
+    background-image: url(ventigallery2.jpg);
+    background-size: cover;
+}
